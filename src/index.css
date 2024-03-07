@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.toastBody{
+  font-size: 1.1rem;
+  font-family:"Atlas Grotesk web", Arial, Helvetica, sans-serif ;
+}
+
+.fixing-width{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}

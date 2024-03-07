@@ -1,0 +1,102 @@
+.maincontainer{
+    flex: 1;
+    background-color: #00171C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincontainersign{
+    height: 92vh;
+    background-color: #00171C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+p{
+    color: #6c757d;
+}
+.input{
+    color: #ccc;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 10px;
+    outline: none
+}
+.input:focus{
+    background-color: transparent;
+    color: #ccc;
+}
+.form{
+    width: 40vw;
+    margin-bottom: 20vh;
+}
+.submitbtn{
+    background-color: aqua;
+    color: black;
+    width: 38vw;
+    height: 48px;
+    border-radius: 30px;
+}
+.login{
+    background-color: transparent;
+    color: aqua;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    position: relative;
+    height: 27px;
+    margin-bottom: 13px;
+}
+.login::after{
+    content: "";
+    position: absolute;
+    background-color: yellow;
+    height: 3px;
+    width: 0%;
+    left: 10px;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.login:hover::after{
+    width: 70%;
+}
+.login:hover{
+    color: aqua;
+}
+
+.home{
+    margin-right: 8px;
+}
+.nav-link{
+    color: aqua;
+}
+.nav-link:hover{
+    color: aqua;
+}
+.nav-link:focus{
+    color: aqua;
+}
+.navbar-brand{
+    color: aqua;
+}
+.navbar-brand:hover{
+    color: aqua;
+}
+.navbar-nav{
+    width: 100px;
+    margin-left: 72vw;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.logout{
+    margin-right: 50px;
+}
+.navbar{
+    background-color: #00171C;
+    border-bottom: 2px solid aqua;
+}

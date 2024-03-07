@@ -1,0 +1,30 @@
+body {
+    background-color: #00171C;
+    padding-top: 50px;
+}
+.h1{
+    color: white;
+}
+.h2{
+    color: white;
+}
+.input{
+    background-color: transparent;
+}
+.label{
+    color: #ccc;
+}
+.editnotes{
+    background-color: #00171C;
+    color: #ccc;
+}
+.addnote{
+    background-color: aqua;
+    cursor: pointer;
+    width: 95px;
+}
+.noteitem{
+    background-color: #00171C;
+    color: white;
+    border: 1px solid aqua;
+}

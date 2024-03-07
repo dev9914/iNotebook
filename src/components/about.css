@@ -1,0 +1,23 @@
+.mainBody{
+    color: white;
+}
+.intro{
+    color: white;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.container5{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    font-size: 30px;
+    margin-left: 152px;
+}
+.li{
+    font-size: 20px;
+    color: aqua;
+}
+a{
+    text-decoration: none;
+}
